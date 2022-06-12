@@ -30,7 +30,23 @@ html {
   pointer-events: auto;
   bottom: 30px;
 }
-
+.demand{
+  background: linear-gradient(-135deg, #71b7e6, #9b59b6);;
+  color:#111;
+  font: Poppins;
+  border-radius: 5px;
+  width:auto;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.demand:hover {
+  color: black;
+  background: none;
+  cursor: pointer;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
 .navbar {
   position: fixed;
   width: 100%;
