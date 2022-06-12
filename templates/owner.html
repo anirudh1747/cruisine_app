@@ -623,8 +623,15 @@
   
     </style>
     <script>
+      var i=0;
       function call(){
-        alert("Demand for the {{cuisine}} for the next month is {{result}}");
+        if (i!=0){
+          alert("Demand for the {{cuisine}} for the next month is {{result}}");
+        }
+        else{
+          alert("Please refresh the page");
+        }
+	      i+=1;
       }
 
       $(document).ready(function () {
@@ -1097,7 +1104,6 @@
       </section>
    
 </body>
-<p style="color:black"> Demand on scale of 100: {{result}} </p>
 
 
 <script src="script.js"></script>
